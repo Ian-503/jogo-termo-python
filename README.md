@@ -4,27 +4,27 @@ Este é um clone do famoso jogo **Termo** (ou *Wordle*), desenvolvido para rodar
 
 O projeto consome uma API real para sortear dinamicamente palavras em português e utiliza a biblioteca de emojis para dar o feedback visual das tentativas do jogador!
 
----
+----------------------------------------------------------
 
-## 🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 *   **Python 3**
 *   **API Datamuse** (Requisições HTTP para busca de palavras)
 *   **Biblioteca `requests`** (Para comunicação com a API)
 *   **Biblioteca `emoji`** (Para renderizar as bolinhas coloridas no terminal)
 
----
+-----------------------------------------------------------
 
-## 🚀 Como Rodar o Jogo
+Como Rodar o Jogo
 
 Se quiser testar o jogo na sua máquina, siga os passos abaixo:
 
-### 1. Clonar o repositório ou baixar o arquivo
+ 1. Clonar o repositório ou baixar o arquivo
 Baixe o arquivo `termo.py` para a sua máquina.
 
-### 2. Instalar as dependências
+ 2. Instalar as dependências
 Abra o seu terminal e instale as bibliotecas necessárias rodando:
-```bash
+bash
 pip install requests emoji
 
 ------------------------------------------------------------
